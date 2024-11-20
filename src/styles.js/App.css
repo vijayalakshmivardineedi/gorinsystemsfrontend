@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20;
+    box-sizing: border-box;
+  }
+  
+  /* Add general styles */
+  button {
+    cursor: pointer;
+  }
+  

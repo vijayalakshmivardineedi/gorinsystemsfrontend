@@ -1,0 +1,57 @@
+.drawerMenu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    width: 250px;
+    height: 100%;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .closeBtn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+.button {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+}
+
+.button button {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #333; 
+  background-color: transparent; 
+  border: none; 
+  text-align: left;
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+.button button:hover {
+  background-color: #f4f4f4;
+}
+
+.button button:focus {
+  outline: none; 
+}
+
+.button button:last-child {
+  background-color: #7a6bfd;
+  color: white;
+}
+
+.button button:last-child:hover {
+  background-color: #6757c2;
+}
+
+
+  .logoIcon {
+    color: #7a6bfd;
+  }

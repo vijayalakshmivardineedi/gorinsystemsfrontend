@@ -1,0 +1,43 @@
+.samples {
+  padding: 40px;
+  background-color: #664FDC; /* Set the background color for the section */
+  text-align: center;
+}
+
+.innerGrid {
+  background-color: white;
+  gap: 50px;
+  padding: 10px;
+}
+
+.sampleGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns for large screens */
+  gap: 20px;
+}
+
+.sampleCard {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for the card */
+}
+
+.sampleCard img {
+  width: 200px; /* Set a fixed width */
+  height: 200px; /* Set a fixed height */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  border-radius: 10px; /* Optional: Add rounded corners to the image */
+}
+
+.sampleCard h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .sampleGrid {
+    grid-template-columns: 1fr; /* 1 column for smaller screens */
+  }
+}

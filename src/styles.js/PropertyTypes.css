@@ -1,0 +1,40 @@
+.propertyTypes {
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.typeGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.typeCard {
+  background-color: rgb(241, 241, 241);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 180px; /* Limit the card width */
+}
+
+.typeIcon {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: rgb(123, 123, 241);
+}
+
+.typeCard p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: black; /* Text color */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .typeGrid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for mobile screens */
+  }
+}

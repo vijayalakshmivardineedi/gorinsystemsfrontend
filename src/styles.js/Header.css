@@ -1,0 +1,97 @@
+/* Header.css */
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styling */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.logoIcon {
+  color: #7a6bfd;
+  margin-right: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Navigation links styling */
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navLinks li {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navLinks li:hover {
+  color: #7a6bfd;
+  cursor: pointer;
+}
+
+/* Button styling */
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for regular buttons */
+button:hover {
+  background-color: #f4f4f4;
+}
+
+button:active {
+  background-color: #ddd;
+}
+
+/* "Try for free" button special style */
+.tryForFreeBtn {
+  background-color: #7a6bfd;
+  color: white;
+  margin-left: 20px;
+  padding: 10px 15px;
+}
+
+.tryForFreeBtn:hover {
+  background-color: #6757c2;
+}
+
+/* Menu button styling */
+.menuBtn {
+  display: none;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+  .navLinks {
+    display: none; /* Hide navigation links on mobile */
+  }
+
+  .menuBtn {
+    display: block; /* Show the menu button on mobile */
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+  }
+}
